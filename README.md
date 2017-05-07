@@ -1,5 +1,5 @@
 # iOS Swift Bootcamp -  Quaddro Treinamentos
-<img src="https://media.licdn.com/mpr/mpr/shrinknp_100_100/AAEAAQAAAAAAAAakAAAAJDMyNGY2MWE1LWQ3YjAtNDNmYy04NGU0LWQ5MzY1ZjYwMjM4OA.png">
+<a href="http://www.quaddro.com.br/curso/ios-swift/" title="Acesse o site da Quaddro Treinamentos"><img src="https://i1.wp.com/macmagazine.com.br/wp-content/uploads/2012/07/10-quaddro.gif?resize=270%2C81&ssl=1">
 
 ### Módulo 100 - Core
 **Conteúdo Programático**
@@ -27,6 +27,7 @@
 - Gerenciamento Automático da memória com ARC
 - Apêndice I - Experimentos com a linguagem de programação Swift
 - Apêndice II - As 30 principais palavras-chave utilizadas na Swift
+
 
 ### Módulo 200 - UI
 **Conteúdo Programático**
@@ -63,6 +64,7 @@
 - ContainerView
 - Storyboard Reference
 
+
 ### Módulo 300 - Frameworks
 **Conteúdo Programático**
 - NotificationCenter
@@ -84,6 +86,7 @@
 - CoreMotion
 - Multipeer Connectivity
 - CloudKit
+
 
 ### Módulo 400 - Network
 **Conteúdo Programático**
