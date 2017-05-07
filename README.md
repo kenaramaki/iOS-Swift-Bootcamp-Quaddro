@@ -1,5 +1,5 @@
 # iOS Swift Bootcamp -  Quaddro Treinamentos
-<a href="http://www.quaddro.com.br/curso/ios-swift/" title="Acesse o site da Quaddro Treinamentos"><img src="https://i1.wp.com/macmagazine.com.br/wp-content/uploads/2012/07/10-quaddro.gif?resize=270%2C81&ssl=1">
+<a href="http://www.quaddro.com.br" title="Acesse o site da Quaddro Treinamentos"><img src="https://i1.wp.com/macmagazine.com.br/wp-content/uploads/2012/07/10-quaddro.gif?resize=270%2C81&ssl=1">
 
 ### Módulo 100 - Core
 **Conteúdo Programático**
