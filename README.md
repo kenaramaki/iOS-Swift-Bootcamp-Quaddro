@@ -25,9 +25,6 @@
 - Extensões na Swift
 - Type Casting
 - Gerenciamento Automático da memória com ARC
-- Apêndice I - Experimentos com a linguagem de programação Swift
-- Apêndice II - As 30 principais palavras-chave utilizadas na Swift
-
 
 ### Módulo 200 - UI
 **Conteúdo Programático**
