@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="DetalhesViewController" customModule="Swift200_day9_2_TableWebCollection" customModuleProvider="target">
+            <connections>
+                <outlet property="spinner" destination="bfT-aD-f2c" id="yoW-0l-9hS"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="webview" destination="6v4-dL-w7c" id="6ka-qY-5nG"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6v4-dL-w7c">
+                    <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="iIz-xw-A8g"/>
+                    </connections>
+                </webView>
+                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="bfT-aD-f2c">
+                    <color key="color" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                </activityIndicatorView>
+                <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="izN-RV-let">
+                    <items>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="grk-as-mmo"/>
+                        <barButtonItem title="Item" systemItem="action" id="Ddy-Vo-eMI">
+                            <connections>
+                                <action selector="tapCompartilhe" destination="-1" id="hP0-y8-MOc"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="DxU-u2-p8c"/>
+                    </items>
+                </toolbar>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color key="tintColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="6v4-dL-w7c" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="8Zm-Nk-Qh6"/>
+                <constraint firstItem="izN-RV-let" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="DG3-hz-5xF"/>
+                <constraint firstItem="6v4-dL-w7c" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="LPK-9f-u95"/>
+                <constraint firstAttribute="bottom" secondItem="6v4-dL-w7c" secondAttribute="bottom" id="Mok-1V-eZG"/>
+                <constraint firstAttribute="trailing" secondItem="6v4-dL-w7c" secondAttribute="trailing" id="W2Z-WP-end"/>
+                <constraint firstItem="bfT-aD-f2c" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="WZk-hx-AO8"/>
+                <constraint firstAttribute="bottom" secondItem="izN-RV-let" secondAttribute="bottom" id="WgA-NQ-fLy"/>
+                <constraint firstItem="bfT-aD-f2c" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="XHy-Fl-Hr3"/>
+                <constraint firstAttribute="trailing" secondItem="izN-RV-let" secondAttribute="trailing" id="aqD-UR-Ymg"/>
+            </constraints>
+            <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+            <point key="canvasLocation" x="33.5" y="54.5"/>
+        </view>
+    </objects>
+</document>

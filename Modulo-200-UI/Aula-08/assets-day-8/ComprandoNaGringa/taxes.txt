@@ -1,0 +1,34 @@
+Regras:
+
+01) Comprando com “dinheiro vivo”: [(Valor do produto em dólar) + (imposto do estado aonde esta comprando)] x (valor do dólar + IOF da compra de dólar). Exemplo: (USD$ 149,00 + 7%) x (R$ 3,45 + 1,10%) (dólar turismo em 05/09/2016) = R$ 556,08
+
+02) Comprando com cartão de crédito/débito/moneycard: [(Valor do produto em dólar) + (imposto do estado aonde esta comprando) + (IOF de transações internacionais)] x (valor do dólar). Exemplo: [(USD$ 149 + 7%) x (R$ 3,45)] + 6,38% = R$ 585,13
+
+
+Orlando: 6,5% a 7%
+Miami: 7%
+Chicago: 9,5%
+Tampa: 7%
+Wisconsin: 5%
+Alabama: 8,45%
+Nova York: 8,875%
+Las Vegas: 8,1%
+Virgínia: 5%
+Washington DC: 6%
+Boston: 6,2%
+Texas: 6,25% a 8,25%
+New Orleans: 9%
+Los Angeles: 8,7%
+San Francisco: 8,5%
+Califórnia: 8,38%
+Michigan: 6%
+Utah: 6,67%
+Ohio: 6,80%
+Carolina do Norte: 6,87%
+Kentucky: 6%
+Arkansas: 8,61%
+Rhode Island: 7%
+Delaware: 0%
+Montana: 0%
+Oregon: 0%
+New Hampshire: 0%

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splash" translatesAutoresizingMaskIntoConstraints="NO" id="xlE-VO-JdG"/>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="flag-icon" translatesAutoresizingMaskIntoConstraints="NO" id="daM-05-QxU"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Comprando na Gringa!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="trV-LC-4Oa">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="Z2i-tz-u6G"/>
+                                    <constraint firstAttribute="width" constant="200" id="kwQ-F4-uQP"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="31"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <size key="shadowOffset" width="3" height="3"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="daM-05-QxU" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="E3a-O6-oE1"/>
+                            <constraint firstItem="daM-05-QxU" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="20" id="GdK-6T-vHv"/>
+                            <constraint firstItem="xlE-VO-JdG" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="Jlg-ar-Vjz"/>
+                            <constraint firstItem="trV-LC-4Oa" firstAttribute="centerX" secondItem="daM-05-QxU" secondAttribute="centerX" id="QkA-nt-ncf"/>
+                            <constraint firstItem="trV-LC-4Oa" firstAttribute="top" secondItem="daM-05-QxU" secondAttribute="bottom" constant="8" id="Up4-pM-cTk"/>
+                            <constraint firstAttribute="trailing" secondItem="xlE-VO-JdG" secondAttribute="trailing" id="fJa-ju-9RM"/>
+                            <constraint firstItem="xlE-VO-JdG" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="iK4-U1-ocu"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="xlE-VO-JdG" secondAttribute="bottom" id="yvd-mH-G4h"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="flag-icon" width="200" height="200"/>
+        <image name="splash" width="750" height="1334"/>
+    </resources>
+</document>

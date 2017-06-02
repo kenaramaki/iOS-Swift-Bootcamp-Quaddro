@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Autolayout_Exercise" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JFM-B7-RWb">
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Usuário" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K5d-8E-LmV">
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RwR-PL-78r">
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Senha" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dt3-1F-6d6">
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="dhg-n4-Yge">
+                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                                <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="RwR-PL-78r" firstAttribute="top" secondItem="JFM-B7-RWb" secondAttribute="top" constant="10" id="0gM-nc-fxP"/>
+                                    <constraint firstAttribute="trailing" secondItem="dhg-n4-Yge" secondAttribute="trailing" constant="10" id="5ol-9e-bAv"/>
+                                    <constraint firstItem="dhg-n4-Yge" firstAttribute="top" secondItem="RwR-PL-78r" secondAttribute="bottom" constant="10" id="6ak-XF-gYH"/>
+                                    <constraint firstItem="RwR-PL-78r" firstAttribute="width" secondItem="dhg-n4-Yge" secondAttribute="width" id="Aih-G2-h7b"/>
+                                    <constraint firstAttribute="trailing" secondItem="RwR-PL-78r" secondAttribute="trailing" constant="10" id="GL9-wX-OZw"/>
+                                    <constraint firstItem="K5d-8E-LmV" firstAttribute="leading" secondItem="JFM-B7-RWb" secondAttribute="leading" constant="10" id="GrH-32-syK"/>
+                                    <constraint firstAttribute="bottom" secondItem="dhg-n4-Yge" secondAttribute="bottom" constant="10" id="Pj8-0w-21k"/>
+                                    <constraint firstItem="dhg-n4-Yge" firstAttribute="leading" secondItem="dt3-1F-6d6" secondAttribute="trailing" constant="5" id="Wvj-yJ-rUx"/>
+                                    <constraint firstItem="K5d-8E-LmV" firstAttribute="centerY" secondItem="RwR-PL-78r" secondAttribute="centerY" id="XVi-1k-agQ"/>
+                                    <constraint firstItem="RwR-PL-78r" firstAttribute="leading" secondItem="K5d-8E-LmV" secondAttribute="trailing" constant="5" id="er6-Ha-UXP"/>
+                                    <constraint firstItem="dt3-1F-6d6" firstAttribute="centerY" secondItem="dhg-n4-Yge" secondAttribute="centerY" id="j3m-zE-BLs"/>
+                                    <constraint firstItem="dt3-1F-6d6" firstAttribute="leading" secondItem="JFM-B7-RWb" secondAttribute="leading" constant="10" id="pbP-Bo-8eD"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="JFM-B7-RWb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3Jp-ul-ihS"/>
+                            <constraint firstItem="JFM-B7-RWb" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.8" id="7iu-l1-sRX"/>
+                            <constraint firstItem="JFM-B7-RWb" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="jJn-DM-4Ou"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-79.200000000000003" y="138.98050974512745"/>
+        </scene>
+    </scenes>
+</document>

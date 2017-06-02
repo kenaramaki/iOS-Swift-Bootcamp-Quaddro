@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Eqw-9f-sEQ">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Lojas-->
+        <scene sceneID="DHl-9C-iDK">
+            <objects>
+                <viewController id="Eqw-9f-sEQ" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="aDY-HB-JcE"/>
+                        <viewControllerLayoutGuide type="bottom" id="h7b-oa-ljV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0g8-wh-TSB">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aZi-sR-Iwi">
+                                <state key="normal" title="Endereço"/>
+                                <connections>
+                                    <segue destination="dXC-FL-6AB" kind="show" id="1f7-91-brU"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="aZi-sR-Iwi" firstAttribute="centerX" secondItem="0g8-wh-TSB" secondAttribute="centerX" id="TMJ-CF-v8x"/>
+                            <constraint firstItem="aZi-sR-Iwi" firstAttribute="centerY" secondItem="0g8-wh-TSB" secondAttribute="centerY" id="sD1-xI-25r"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Lojas" id="gRA-zU-e27"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VOa-JE-FaS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2737" y="542"/>
+        </scene>
+        <!--Endereço-->
+        <scene sceneID="7ud-fB-6UE">
+            <objects>
+                <viewController id="dXC-FL-6AB" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lHp-48-jcn"/>
+                        <viewControllerLayoutGuide type="bottom" id="EFW-jP-Fpa"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="scW-L9-86h">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eyl-oo-gEU">
+                                <state key="normal" title="Mapa"/>
+                                <connections>
+                                    <segue destination="WQ5-Rr-Rnc" kind="show" id="oAO-Uo-3I8"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="eyl-oo-gEU" firstAttribute="centerY" secondItem="scW-L9-86h" secondAttribute="centerY" id="BFZ-Ya-Sb7"/>
+                            <constraint firstItem="eyl-oo-gEU" firstAttribute="centerX" secondItem="scW-L9-86h" secondAttribute="centerX" id="IQI-Ew-Z17"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Endereço" id="GSP-bs-wtm"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eFN-Xj-5s8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3478" y="542"/>
+        </scene>
+        <!--Mapa-->
+        <scene sceneID="SjG-bL-aIY">
+            <objects>
+                <viewController id="WQ5-Rr-Rnc" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mpY-Hy-euf"/>
+                        <viewControllerLayoutGuide type="bottom" id="dNo-TW-KmR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Kad-Im-ztt">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mapa" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G27-3m-a7f">
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3ij-ps-Nr7">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="37c-Nz-obt"/>
+                                </constraints>
+                                <connections>
+                                    <segue destination="uLG-xz-7we" kind="embed" id="MLV-Gm-y4q"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="3ij-ps-Nr7" secondAttribute="trailing" id="7En-kE-JVa"/>
+                            <constraint firstItem="dNo-TW-KmR" firstAttribute="top" secondItem="3ij-ps-Nr7" secondAttribute="bottom" id="XZr-Nw-KOP"/>
+                            <constraint firstItem="G27-3m-a7f" firstAttribute="centerY" secondItem="Kad-Im-ztt" secondAttribute="centerY" id="aSz-t4-gD3"/>
+                            <constraint firstItem="3ij-ps-Nr7" firstAttribute="leading" secondItem="Kad-Im-ztt" secondAttribute="leading" id="waf-1K-sYO"/>
+                            <constraint firstItem="G27-3m-a7f" firstAttribute="centerX" secondItem="Kad-Im-ztt" secondAttribute="centerX" id="xUz-31-98j"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Mapa" id="PTC-Hq-Tj8"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IAD-Ob-IFp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4209" y="542"/>
+        </scene>
+        <!--barraUsuario-->
+        <scene sceneID="bk2-Br-VBl">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Main" referencedIdentifier="barraUsuario" id="uLG-xz-7we" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EWC-ZK-wkw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4890" y="721"/>
+        </scene>
+    </scenes>
+</document>

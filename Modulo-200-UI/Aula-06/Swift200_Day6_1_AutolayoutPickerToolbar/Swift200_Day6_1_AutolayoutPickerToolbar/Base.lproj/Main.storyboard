@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Swift200_Day6_1_AutolayoutPickerToolbar" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fWZ-2B-Yn3">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="216" id="bKR-Bk-j1i"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="TAy-1Y-RAQ"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="ou4-DF-ad8"/>
+                                </connections>
+                            </pickerView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="W16-rc-y6K">
+                                <subviews>
+                                    <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" image="destaque" translatesAutoresizingMaskIntoConstraints="NO" id="Zuj-b2-Tzt">
+                                        <constraints>
+                                            <constraint firstAttribute="width" secondItem="Zuj-b2-Tzt" secondAttribute="height" multiplier="128:175" id="1es-NT-D5A"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="l1_0" translatesAutoresizingMaskIntoConstraints="NO" id="iS7-0o-QR3" userLabel="Image View N1">
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="200" id="Hjv-5l-Sh5"/>
+                                            <constraint firstAttribute="width" constant="200" id="jF5-Jg-B0v"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="l2_1" translatesAutoresizingMaskIntoConstraints="NO" id="T4J-7H-7Sn" userLabel="Image View N2">
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="200" id="1xu-bL-vQl"/>
+                                            <constraint firstAttribute="height" constant="200" id="zW3-4A-OkW"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="l3_2" translatesAutoresizingMaskIntoConstraints="NO" id="k3w-4G-TFx" userLabel="Image View N3">
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="200" id="VRe-rA-Y6d"/>
+                                            <constraint firstAttribute="width" constant="200" id="dLN-HW-Sfi"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstItem="k3w-4G-TFx" firstAttribute="centerY" secondItem="W16-rc-y6K" secondAttribute="centerY" id="7kN-Lj-bLT"/>
+                                    <constraint firstItem="T4J-7H-7Sn" firstAttribute="centerX" secondItem="W16-rc-y6K" secondAttribute="centerX" id="Fko-bP-W3M"/>
+                                    <constraint firstItem="Zuj-b2-Tzt" firstAttribute="width" secondItem="W16-rc-y6K" secondAttribute="width" multiplier="0.8" id="TlE-EF-HRi"/>
+                                    <constraint firstItem="Zuj-b2-Tzt" firstAttribute="centerX" secondItem="W16-rc-y6K" secondAttribute="centerX" id="XFa-XD-9Av"/>
+                                    <constraint firstItem="iS7-0o-QR3" firstAttribute="centerX" secondItem="W16-rc-y6K" secondAttribute="centerX" id="afr-Ya-QXZ"/>
+                                    <constraint firstItem="k3w-4G-TFx" firstAttribute="centerX" secondItem="W16-rc-y6K" secondAttribute="centerX" id="fuv-Di-ecf"/>
+                                    <constraint firstItem="T4J-7H-7Sn" firstAttribute="centerY" secondItem="W16-rc-y6K" secondAttribute="centerY" id="gLN-7c-1JI"/>
+                                    <constraint firstItem="iS7-0o-QR3" firstAttribute="centerY" secondItem="W16-rc-y6K" secondAttribute="centerY" id="i3j-s1-Pwc"/>
+                                    <constraint firstItem="Zuj-b2-Tzt" firstAttribute="centerY" secondItem="W16-rc-y6K" secondAttribute="centerY" id="v8C-Fg-NIL"/>
+                                </constraints>
+                            </view>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xAJ-JI-6n6">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="Se0-e5-kE0"/>
+                                </constraints>
+                                <items>
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="Frz-5h-76M"/>
+                                    <barButtonItem image="Chicken Filled-50" id="NXD-7a-zWZ">
+                                        <connections>
+                                            <action selector="tapFrango:" destination="BYZ-38-t0r" id="zck-jU-drc"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem image="Natural Food Filled-50" id="zTo-8P-JZ3">
+                                        <connections>
+                                            <action selector="tapSalada:" destination="BYZ-38-t0r" id="nxb-Ca-MTh"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem image="Industrial Scales Filled-50" id="VLu-bW-9Ih">
+                                        <connections>
+                                            <action selector="tapDiet:" destination="BYZ-38-t0r" id="Yw8-dW-wcz"/>
+                                        </connections>
+                                    </barButtonItem>
+                                    <barButtonItem image="Steak Medium Filled-50" id="FTe-RD-HIH">
+                                        <connections>
+                                            <action selector="tapCarne:" destination="BYZ-38-t0r" id="1gz-Vl-QMn"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                                <color key="tintColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                            </toolbar>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="W16-rc-y6K" secondAttribute="trailing" id="5jO-iO-GkN"/>
+                            <constraint firstItem="xAJ-JI-6n6" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="CZl-OC-NAC"/>
+                            <constraint firstItem="fWZ-2B-Yn3" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="TW9-xl-lRz"/>
+                            <constraint firstItem="W16-rc-y6K" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Zp8-Fj-mfy"/>
+                            <constraint firstAttribute="trailing" secondItem="xAJ-JI-6n6" secondAttribute="trailing" id="bgQ-fD-1CN"/>
+                            <constraint firstItem="W16-rc-y6K" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="64" id="fn7-49-sKD"/>
+                            <constraint firstItem="fWZ-2B-Yn3" firstAttribute="top" secondItem="xAJ-JI-6n6" secondAttribute="bottom" id="ohV-N7-sxn"/>
+                            <constraint firstItem="xAJ-JI-6n6" firstAttribute="top" secondItem="W16-rc-y6K" secondAttribute="bottom" id="rOn-Mu-CxG"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="fWZ-2B-Yn3" secondAttribute="bottom" id="vY8-Fm-Zy4"/>
+                            <constraint firstAttribute="trailing" secondItem="fWZ-2B-Yn3" secondAttribute="trailing" id="zkL-yU-flo"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="meuPicker" destination="fWZ-2B-Yn3" id="4SI-ec-UR0"/>
+                        <outlet property="nivelDois" destination="T4J-7H-7Sn" id="wpX-Se-tVj"/>
+                        <outlet property="nivelTres" destination="k3w-4G-TFx" id="TJw-ID-k0Y"/>
+                        <outlet property="nivelUm" destination="iS7-0o-QR3" id="YOK-Ez-pqa"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="37.331334332833585"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Chicken Filled-50" width="25" height="25"/>
+        <image name="Industrial Scales Filled-50" width="25" height="25"/>
+        <image name="Natural Food Filled-50" width="25" height="25"/>
+        <image name="Steak Medium Filled-50" width="25" height="25"/>
+        <image name="destaque" width="350" height="350"/>
+        <image name="l1_0" width="200" height="200"/>
+        <image name="l2_1" width="200" height="200"/>
+        <image name="l3_2" width="200" height="200"/>
+    </resources>
+</document>

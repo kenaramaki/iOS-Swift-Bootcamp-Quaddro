@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Meu View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Swift200_Day2_2_UISlider" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="cpq-uV-VzE" customClass="QuadradoView" customModule="Swift200_Day2_2_UISlider" customModuleProvider="target">
+                                <rect key="frame" x="20" y="88" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <outlet property="meuViewController" destination="BYZ-38-t0r" id="6dh-dR-abI"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" id="X3h-56-mkX" customClass="QuadradoView" customModule="Swift200_Day2_2_UISlider" customModuleProvider="target">
+                                <rect key="frame" x="125" y="88" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <outlet property="meuViewController" destination="BYZ-38-t0r" id="qpa-K0-7gS"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" id="D3B-Ms-UX7" customClass="QuadradoView" customModule="Swift200_Day2_2_UISlider" customModuleProvider="target">
+                                <rect key="frame" x="230" y="88" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <outlet property="meuViewController" destination="BYZ-38-t0r" id="NB5-h3-b9v"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" id="peI-SE-NKe" customClass="QuadradoView" customModule="Swift200_Day2_2_UISlider" customModuleProvider="target">
+                                <rect key="frame" x="20" y="166" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <outlet property="meuViewController" destination="BYZ-38-t0r" id="UYf-mU-GYt"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" id="nmw-5L-wGi" customClass="QuadradoView" customModule="Swift200_Day2_2_UISlider" customModuleProvider="target">
+                                <rect key="frame" x="125" y="166" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <outlet property="meuViewController" destination="BYZ-38-t0r" id="MiQ-Xo-dNy"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" id="XoF-qJ-Vi1" customClass="QuadradoView" customModule="Swift200_Day2_2_UISlider" customModuleProvider="target">
+                                <rect key="frame" x="230" y="166" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <outlet property="meuViewController" destination="BYZ-38-t0r" id="rMH-ZC-ZNf"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" id="kwy-0J-Eky" customClass="QuadradoView" customModule="Swift200_Day2_2_UISlider" customModuleProvider="target">
+                                <rect key="frame" x="20" y="244" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <outlet property="meuViewController" destination="BYZ-38-t0r" id="hKY-MS-cSb"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" id="yr6-z2-dK8" customClass="QuadradoView" customModule="Swift200_Day2_2_UISlider" customModuleProvider="target">
+                                <rect key="frame" x="125" y="244" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <outlet property="meuViewController" destination="BYZ-38-t0r" id="OHi-2J-ItR"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" id="F67-Kz-i05" customClass="QuadradoView" customModule="Swift200_Day2_2_UISlider" customModuleProvider="target">
+                                <rect key="frame" x="230" y="244" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <outlet property="meuViewController" destination="BYZ-38-t0r" id="AHk-sz-u6I"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" id="0YO-W8-A6X" customClass="QuadradoView" customModule="Swift200_Day2_2_UISlider" customModuleProvider="target">
+                                <rect key="frame" x="20" y="322" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <outlet property="meuViewController" destination="BYZ-38-t0r" id="ide-FC-9q0"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" id="PYe-Ze-JMl" customClass="QuadradoView" customModule="Swift200_Day2_2_UISlider" customModuleProvider="target">
+                                <rect key="frame" x="125" y="322" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <outlet property="meuViewController" destination="BYZ-38-t0r" id="VKN-8s-dtd"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" id="YAz-0P-FdF" customClass="QuadradoView" customModule="Swift200_Day2_2_UISlider" customModuleProvider="target">
+                                <rect key="frame" x="230" y="322" width="70" height="70"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <outlet property="meuViewController" destination="BYZ-38-t0r" id="7RK-yA-iGy"/>
+                                </connections>
+                            </view>
+                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Arte Programática" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="lY6-fb-TWM" customClass="TextoColorivel" customModule="Swift200_Day2_2_UISlider" customModuleProvider="target">
+                                <rect key="frame" x="78" y="20" width="165" height="46"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <connections>
+                                    <outlet property="meuViewController" destination="BYZ-38-t0r" id="egd-aT-Xar"/>
+                                </connections>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="318" y="393"/>
+        </scene>
+    </scenes>
+</document>
