@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="272-sK-Dxp">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DesafioGravador" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="default" rowHeight="44" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="d75-1y-1F4">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" id="V6Y-dt-3fy">
+                                        <rect key="frame" x="0.0" y="56" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="V6Y-dt-3fy" id="XFw-kN-Qzb">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="iLa-gv-p1t"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="XrU-od-eCj"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="d75-1y-1F4" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="SNB-gc-fg0"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="d75-1y-1F4" secondAttribute="bottom" id="arR-EO-Cre"/>
+                            <constraint firstAttribute="trailing" secondItem="d75-1y-1F4" secondAttribute="trailing" id="il2-Ze-n7x"/>
+                            <constraint firstItem="d75-1y-1F4" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="ksG-SR-DfC"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="0et-dF-pKy"/>
+                    <connections>
+                        <outlet property="tabela" destination="d75-1y-1F4" id="bEj-ni-IcO"/>
+                        <segue destination="eYj-Rb-ALP" kind="show" identifier="irParaNovaGravacao" id="hjY-e6-lEj"/>
+                        <segue destination="3zs-uG-lSm" kind="show" identifier="irParaGravacoesSalvas" id="nx3-kO-dmz"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1134.375" y="138.38028169014083"/>
+        </scene>
+        <!--Nova Gravacao View Controller-->
+        <scene sceneID="Tzl-PN-yJu">
+            <objects>
+                <viewController id="eYj-Rb-ALP" customClass="NovaGravacaoViewController" customModule="DesafioGravador" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="1px-d5-N21"/>
+                        <viewControllerLayoutGuide type="bottom" id="mng-Q2-QkE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="VBJ-0k-hVn">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Crie uma nova gravação" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rdF-Mn-y22">
+                                <rect key="frame" x="68" y="89" width="184" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="184" id="ikC-Qo-UHE"/>
+                                    <constraint firstAttribute="height" constant="21" id="sGY-ES-nsE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Soi-cE-6Br">
+                                <rect key="frame" x="15" y="283" width="290" height="2"/>
+                            </progressView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="II1-cV-2Vb">
+                                <rect key="frame" x="105" y="178" width="110" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="O3x-PW-SgN"/>
+                                    <constraint firstAttribute="width" constant="110" id="sew-qz-TA7"/>
+                                </constraints>
+                                <state key="normal" title="Iniciar Gravação"/>
+                                <connections>
+                                    <action selector="iniciarGravacao:" destination="eYj-Rb-ALP" eventType="touchUpInside" id="Eha-3E-R54"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xgl-cA-U7h">
+                                <rect key="frame" x="108" y="360" width="105" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Q1c-df-kdI"/>
+                                    <constraint firstAttribute="width" constant="105" id="cPc-9t-haX"/>
+                                </constraints>
+                                <state key="normal" title="Parar Gravação"/>
+                                <connections>
+                                    <action selector="pararGravacao:" destination="eYj-Rb-ALP" eventType="touchUpInside" id="BvP-zz-LVA"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.40000000600000002" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="Xgl-cA-U7h" firstAttribute="top" secondItem="Soi-cE-6Br" secondAttribute="bottom" constant="75" id="0dp-2v-TnL"/>
+                            <constraint firstItem="II1-cV-2Vb" firstAttribute="centerX" secondItem="VBJ-0k-hVn" secondAttribute="centerX" id="2rS-OC-qbk"/>
+                            <constraint firstAttribute="trailing" secondItem="Soi-cE-6Br" secondAttribute="trailing" constant="15" id="DBH-G3-1uu"/>
+                            <constraint firstItem="Soi-cE-6Br" firstAttribute="centerY" secondItem="VBJ-0k-hVn" secondAttribute="centerY" id="MRd-Ap-y8z"/>
+                            <constraint firstItem="rdF-Mn-y22" firstAttribute="centerX" secondItem="VBJ-0k-hVn" secondAttribute="centerX" id="N9H-41-pkK"/>
+                            <constraint firstItem="Soi-cE-6Br" firstAttribute="top" secondItem="II1-cV-2Vb" secondAttribute="bottom" constant="75" id="bnB-y4-tAN"/>
+                            <constraint firstItem="rdF-Mn-y22" firstAttribute="top" secondItem="1px-d5-N21" secondAttribute="bottom" constant="25" id="ked-1B-gNN"/>
+                            <constraint firstItem="Xgl-cA-U7h" firstAttribute="centerX" secondItem="VBJ-0k-hVn" secondAttribute="centerX" id="klb-x4-7WR"/>
+                            <constraint firstItem="Soi-cE-6Br" firstAttribute="centerX" secondItem="VBJ-0k-hVn" secondAttribute="centerX" id="oOF-EM-RA5"/>
+                            <constraint firstItem="Soi-cE-6Br" firstAttribute="leading" secondItem="VBJ-0k-hVn" secondAttribute="leading" constant="15" id="tx3-kU-k3s"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7sn-yq-OfS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2107.5" y="-186.97183098591549"/>
+        </scene>
+        <!--Gravacoes Salvas View Controller-->
+        <scene sceneID="JFe-R7-VuN">
+            <objects>
+                <viewController id="3zs-uG-lSm" customClass="GravacoesSalvasViewController" customModule="DesafioGravador" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="A6S-a6-SbA"/>
+                        <viewControllerLayoutGuide type="bottom" id="CpR-DF-Tsr"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Key-pn-C3Y">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="FSE-Gp-Y5e">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="Cell" id="PPf-Wr-sRh" customClass="CelulaTableViewCell" customModule="DesafioGravador" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="320" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="PPf-Wr-sRh" id="nU5-I5-vjd">
+                                            <rect key="frame" x="0.0" y="0.0" width="320" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="3zs-uG-lSm" id="EaR-wC-YXf"/>
+                                    <outlet property="delegate" destination="3zs-uG-lSm" id="Pjq-jt-Wcp"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="FSE-Gp-Y5e" secondAttribute="trailing" id="IXr-JI-p3r"/>
+                            <constraint firstItem="FSE-Gp-Y5e" firstAttribute="top" secondItem="Key-pn-C3Y" secondAttribute="top" id="YQ0-v0-Bud"/>
+                            <constraint firstItem="FSE-Gp-Y5e" firstAttribute="leading" secondItem="Key-pn-C3Y" secondAttribute="leading" id="bhz-op-M2f"/>
+                            <constraint firstItem="CpR-DF-Tsr" firstAttribute="top" secondItem="FSE-Gp-Y5e" secondAttribute="bottom" id="cmG-3Z-Ibv"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <segue destination="WQm-VI-zlw" kind="show" identifier="irParaDetalhesGravacao" id="WYL-2h-I1O"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3Gc-gm-KlW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2107.5" y="528.16901408450701"/>
+        </scene>
+        <!--Detalhes Gravacao View Controller-->
+        <scene sceneID="50r-X5-NLg">
+            <objects>
+                <viewController id="WQm-VI-zlw" customClass="DetalhesGravacaoViewController" customModule="DesafioGravador" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="sX4-AI-0gg"/>
+                        <viewControllerLayoutGuide type="bottom" id="UmY-Do-573"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Igt-1I-9FK">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ari-BG-70p">
+                                <rect key="frame" x="123" y="338" width="75" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="75" id="NaD-aY-GXG"/>
+                                    <constraint firstAttribute="height" constant="30" id="ztX-Ge-akU"/>
+                                </constraints>
+                                <state key="normal" title="Parar"/>
+                                <connections>
+                                    <action selector="parar:" destination="WQm-VI-zlw" eventType="touchUpInside" id="kNk-3C-vfy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oOc-eU-weN">
+                                <rect key="frame" x="123" y="184" width="75" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="75" id="7p7-7E-Oox"/>
+                                    <constraint firstAttribute="height" constant="30" id="Zlh-UO-J0d"/>
+                                </constraints>
+                                <state key="normal" title="Reproduzir"/>
+                                <connections>
+                                    <action selector="reproduzir:" destination="WQm-VI-zlw" eventType="touchUpInside" id="9aG-Kp-nar"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="oOc-eU-weN" firstAttribute="top" secondItem="sX4-AI-0gg" secondAttribute="bottom" constant="120" id="CMJ-fe-HMi"/>
+                            <constraint firstItem="oOc-eU-weN" firstAttribute="centerX" secondItem="Igt-1I-9FK" secondAttribute="centerX" id="Wlf-JD-gxb"/>
+                            <constraint firstItem="ari-BG-70p" firstAttribute="centerX" secondItem="Igt-1I-9FK" secondAttribute="centerX" id="pJm-LQ-PGh"/>
+                            <constraint firstItem="UmY-Do-573" firstAttribute="top" secondItem="ari-BG-70p" secondAttribute="bottom" constant="200" id="yzR-sB-Ega"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nhu-vO-mVl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2940" y="525"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="eoc-GB-TVB">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="272-sK-Dxp" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="dt3-O5-1Po">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="0Zd-Up-s0h"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vLf-a2-NH9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.875" y="138.38028169014083"/>
+        </scene>
+    </scenes>
+</document>

@@ -1,0 +1,38 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+
+<pessoas>
+    <aluno>
+        <nome>Lilica</nome>
+        <idade>25</idade>
+    </aluno>
+    <aluno>
+        <nome>Garibaldo</nome>
+        <idade>98</idade>
+    </aluno>
+    <aluno>
+        <nome>Fernando</nome>
+        <idade>18</idade>
+    </aluno>
+    <aluno>
+        <nome>Maria</nome>
+        <idade>33</idade>
+    </aluno>
+    
+    <aluno>
+        <nome>Ken</nome>
+        <idade>26</idade>
+    </aluno>
+    <aluno>
+        <nome>Thiago</nome>
+        <idade>28</idade>
+    </aluno>
+    <aluno>
+        <nome>Beatriz</nome>
+        <idade>22</idade>
+    </aluno>
+    <aluno>
+        <nome>Bianca</nome>
+        <idade>18</idade>
+    </aluno>
+    
+</pessoas>

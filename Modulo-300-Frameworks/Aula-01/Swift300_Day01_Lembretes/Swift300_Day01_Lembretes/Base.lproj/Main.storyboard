@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina3_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Swift300_Day01_Lembretes" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3de-vU-V3x">
+                                <rect key="frame" x="16" y="28" width="288" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <connections>
+                                    <action selector="entrarLembrete:" destination="BYZ-38-t0r" eventType="primaryActionTriggered" id="d3q-LQ-RFz"/>
+                                </connections>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="af2-R6-qUn">
+                                <rect key="frame" x="16" y="89" width="288" height="30"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Apagar todos os lembretes"/>
+                                <connections>
+                                    <action selector="apagarLembretesAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NN1-y4-OQg"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Não há lembretes salvos" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="v3h-IZ-aiY">
+                                <rect key="frame" x="16" y="144" width="288" height="316"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="af2-R6-qUn" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="7T5-Ho-p63"/>
+                            <constraint firstAttribute="trailing" secondItem="v3h-IZ-aiY" secondAttribute="trailing" constant="16" id="FTJ-Hr-eOb"/>
+                            <constraint firstItem="af2-R6-qUn" firstAttribute="top" secondItem="3de-vU-V3x" secondAttribute="bottom" constant="31" id="MiX-ob-zS5"/>
+                            <constraint firstItem="v3h-IZ-aiY" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="PYs-0S-fg5"/>
+                            <constraint firstAttribute="trailing" secondItem="3de-vU-V3x" secondAttribute="trailing" constant="16" id="Ray-wZ-Aaf"/>
+                            <constraint firstItem="3de-vU-V3x" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="T8W-5a-sIN"/>
+                            <constraint firstItem="v3h-IZ-aiY" firstAttribute="top" secondItem="af2-R6-qUn" secondAttribute="bottom" constant="25" id="Yh8-hH-x5M"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="v3h-IZ-aiY" secondAttribute="bottom" constant="20" id="f8u-VR-G2G"/>
+                            <constraint firstAttribute="trailing" secondItem="af2-R6-qUn" secondAttribute="trailing" constant="16" id="hM6-PX-GME"/>
+                            <constraint firstItem="3de-vU-V3x" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="pnn-5C-5f8"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="button" destination="af2-R6-qUn" id="efV-X1-7Si"/>
+                        <outlet property="lembrete" destination="3de-vU-V3x" id="KPl-R2-ZZU"/>
+                        <outlet property="lembretesTextView" destination="v3h-IZ-aiY" id="x6u-Uz-gRc"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="33.75" y="32.5"/>
+        </scene>
+    </scenes>
+</document>

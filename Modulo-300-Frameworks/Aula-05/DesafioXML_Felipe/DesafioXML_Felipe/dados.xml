@@ -1,0 +1,24 @@
+<?xml version = "1.0" encoding = "UTF-8" ?>
+
+<pessoas>
+    <aluno>
+        <nome>Lilica</nome>
+        <idade>25</idade>
+    </aluno>
+    <aluno>
+        <nome>Garibaldo</nome>
+        <idade>98</idade>
+    </aluno>
+    <aluno>
+        <nome>Fernandito</nome>
+        <idade>99</idade>
+    </aluno>
+    <aluno>
+        <nome>Florisvaldo</nome>
+        <idade>25</idade>
+    </aluno>
+    <aluno>
+        <nome>João</nome>
+        <idade>32</idade>
+    </aluno>
+</pessoas>

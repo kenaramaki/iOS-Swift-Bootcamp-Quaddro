@@ -1,0 +1,320 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43A159E21E6AEC030092B357 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A159E11E6AEC030092B357 /* AppDelegate.swift */; };
+		43A159E71E6AEC030092B357 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43A159E51E6AEC030092B357 /* Main.storyboard */; };
+		43A159E91E6AEC030092B357 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43A159E81E6AEC030092B357 /* Assets.xcassets */; };
+		43A159EC1E6AEC030092B357 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43A159EA1E6AEC030092B357 /* LaunchScreen.storyboard */; };
+		43A159F41E6AEF5B0092B357 /* TelaPrincipalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A159F31E6AEF5B0092B357 /* TelaPrincipalViewController.swift */; };
+		43A159F61E6AEFA80092B357 /* ListaGravacoesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A159F51E6AEFA80092B357 /* ListaGravacoesViewController.swift */; };
+		43A159F81E6AF0100092B357 /* NovaGravacaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A159F71E6AF0100092B357 /* NovaGravacaoViewController.swift */; };
+		43A159FA1E6AF0390092B357 /* ReproducaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A159F91E6AF0390092B357 /* ReproducaoViewController.swift */; };
+		43A159FC1E6AF0A70092B357 /* ElementosGlobais.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43A159FB1E6AF0A70092B357 /* ElementosGlobais.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		43A159DE1E6AEC030092B357 /* DesafioGravador.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesafioGravador.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43A159E11E6AEC030092B357 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		43A159E61E6AEC030092B357 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		43A159E81E6AEC030092B357 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		43A159EB1E6AEC030092B357 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		43A159ED1E6AEC030092B357 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43A159F31E6AEF5B0092B357 /* TelaPrincipalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TelaPrincipalViewController.swift; sourceTree = "<group>"; };
+		43A159F51E6AEFA80092B357 /* ListaGravacoesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListaGravacoesViewController.swift; sourceTree = "<group>"; };
+		43A159F71E6AF0100092B357 /* NovaGravacaoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NovaGravacaoViewController.swift; sourceTree = "<group>"; };
+		43A159F91E6AF0390092B357 /* ReproducaoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReproducaoViewController.swift; sourceTree = "<group>"; };
+		43A159FB1E6AF0A70092B357 /* ElementosGlobais.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElementosGlobais.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43A159DB1E6AEC020092B357 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43A159D51E6AEC020092B357 = {
+			isa = PBXGroup;
+			children = (
+				43A159E01E6AEC030092B357 /* DesafioGravador */,
+				43A159DF1E6AEC030092B357 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43A159DF1E6AEC030092B357 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43A159DE1E6AEC030092B357 /* DesafioGravador.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43A159E01E6AEC030092B357 /* DesafioGravador */ = {
+			isa = PBXGroup;
+			children = (
+				43A159FB1E6AF0A70092B357 /* ElementosGlobais.swift */,
+				43A159E11E6AEC030092B357 /* AppDelegate.swift */,
+				43A159E51E6AEC030092B357 /* Main.storyboard */,
+				43A159F31E6AEF5B0092B357 /* TelaPrincipalViewController.swift */,
+				43A159F91E6AF0390092B357 /* ReproducaoViewController.swift */,
+				43A159F71E6AF0100092B357 /* NovaGravacaoViewController.swift */,
+				43A159F51E6AEFA80092B357 /* ListaGravacoesViewController.swift */,
+				43A159E81E6AEC030092B357 /* Assets.xcassets */,
+				43A159EA1E6AEC030092B357 /* LaunchScreen.storyboard */,
+				43A159ED1E6AEC030092B357 /* Info.plist */,
+			);
+			path = DesafioGravador;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43A159DD1E6AEC020092B357 /* DesafioGravador */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43A159F01E6AEC030092B357 /* Build configuration list for PBXNativeTarget "DesafioGravador" */;
+			buildPhases = (
+				43A159DA1E6AEC020092B357 /* Sources */,
+				43A159DB1E6AEC020092B357 /* Frameworks */,
+				43A159DC1E6AEC020092B357 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DesafioGravador;
+			productName = DesafioGravador;
+			productReference = 43A159DE1E6AEC030092B357 /* DesafioGravador.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43A159D61E6AEC020092B357 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Ken Aramaki";
+				TargetAttributes = {
+					43A159DD1E6AEC020092B357 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 43A159D91E6AEC020092B357 /* Build configuration list for PBXProject "DesafioGravador" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43A159D51E6AEC020092B357;
+			productRefGroup = 43A159DF1E6AEC030092B357 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43A159DD1E6AEC020092B357 /* DesafioGravador */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43A159DC1E6AEC020092B357 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43A159EC1E6AEC030092B357 /* LaunchScreen.storyboard in Resources */,
+				43A159E91E6AEC030092B357 /* Assets.xcassets in Resources */,
+				43A159E71E6AEC030092B357 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43A159DA1E6AEC020092B357 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43A159F81E6AF0100092B357 /* NovaGravacaoViewController.swift in Sources */,
+				43A159FA1E6AF0390092B357 /* ReproducaoViewController.swift in Sources */,
+				43A159E21E6AEC030092B357 /* AppDelegate.swift in Sources */,
+				43A159F41E6AEF5B0092B357 /* TelaPrincipalViewController.swift in Sources */,
+				43A159FC1E6AF0A70092B357 /* ElementosGlobais.swift in Sources */,
+				43A159F61E6AEFA80092B357 /* ListaGravacoesViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		43A159E51E6AEC030092B357 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43A159E61E6AEC030092B357 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		43A159EA1E6AEC030092B357 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43A159EB1E6AEC030092B357 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43A159EE1E6AEC030092B357 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		43A159EF1E6AEC030092B357 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43A159F11E6AEC030092B357 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DesafioGravador/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.kenaramaki.DesafioGravador;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		43A159F21E6AEC030092B357 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DesafioGravador/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.kenaramaki.DesafioGravador;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43A159D91E6AEC020092B357 /* Build configuration list for PBXProject "DesafioGravador" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43A159EE1E6AEC030092B357 /* Debug */,
+				43A159EF1E6AEC030092B357 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43A159F01E6AEC030092B357 /* Build configuration list for PBXNativeTarget "DesafioGravador" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43A159F11E6AEC030092B357 /* Debug */,
+				43A159F21E6AEC030092B357 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43A159D61E6AEC020092B357 /* Project object */;
+}
