@@ -4,4 +4,4 @@ Neste módulo foram abordados os principais frameworks Cocoa, partindo de compon
 
 Fonte: <a href = "http://www.quaddro.com.br/curso/ios-swift/" title="Quaddro Treinamentos">Quaddro Treinamentos</a>
 
-Obs: Desenvolvidos em Swift 3.0
+Obs: Projetos desenvolvidos em Swift 3.0
