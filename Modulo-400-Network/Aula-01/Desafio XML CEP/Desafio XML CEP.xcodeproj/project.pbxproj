@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7ED71FB1E8FEAD9004D6ADB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7ED71FA1E8FEAD9004D6ADB /* AppDelegate.swift */; };
+		A7ED71FD1E8FEAD9004D6ADB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7ED71FC1E8FEAD9004D6ADB /* ViewController.swift */; };
+		A7ED72001E8FEAD9004D6ADB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7ED71FE1E8FEAD9004D6ADB /* Main.storyboard */; };
+		A7ED72021E8FEAD9004D6ADB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7ED72011E8FEAD9004D6ADB /* Assets.xcassets */; };
+		A7ED72051E8FEAD9004D6ADB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7ED72031E8FEAD9004D6ADB /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A7ED71F71E8FEAD9004D6ADB /* Desafio XML CEP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Desafio XML CEP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7ED71FA1E8FEAD9004D6ADB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A7ED71FC1E8FEAD9004D6ADB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A7ED71FF1E8FEAD9004D6ADB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A7ED72011E8FEAD9004D6ADB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7ED72041E8FEAD9004D6ADB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A7ED72061E8FEAD9004D6ADB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7ED71F41E8FEAD9004D6ADB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7ED71EE1E8FEAD9004D6ADB = {
+			isa = PBXGroup;
+			children = (
+				A7ED71F91E8FEAD9004D6ADB /* Desafio XML CEP */,
+			);
+			sourceTree = "<group>";
+		};
+		A7ED71F81E8FEAD9004D6ADB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7ED71F71E8FEAD9004D6ADB /* Desafio XML CEP.app */,
+			);
+			name = Products;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		A7ED71F91E8FEAD9004D6ADB /* Desafio XML CEP */ = {
+			isa = PBXGroup;
+			children = (
+				A7ED71FA1E8FEAD9004D6ADB /* AppDelegate.swift */,
+				A7ED720C1E8FEB2F004D6ADB /* Supporte */,
+				A7ED720E1E8FEB3D004D6ADB /* Imagens */,
+				A7ED720D1E8FEB36004D6ADB /* Layout */,
+				A7ED71FC1E8FEAD9004D6ADB /* ViewController.swift */,
+			);
+			path = "Desafio XML CEP";
+			sourceTree = "<group>";
+		};
+		A7ED720C1E8FEB2F004D6ADB /* Supporte */ = {
+			isa = PBXGroup;
+			children = (
+				A7ED72061E8FEAD9004D6ADB /* Info.plist */,
+				A7ED71F81E8FEAD9004D6ADB /* Products */,
+			);
+			name = Supporte;
+			sourceTree = "<group>";
+		};
+		A7ED720D1E8FEB36004D6ADB /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				A7ED71FE1E8FEAD9004D6ADB /* Main.storyboard */,
+				A7ED72031E8FEAD9004D6ADB /* LaunchScreen.storyboard */,
+			);
+			name = Layout;
+			sourceTree = "<group>";
+		};
+		A7ED720E1E8FEB3D004D6ADB /* Imagens */ = {
+			isa = PBXGroup;
+			children = (
+				A7ED72011E8FEAD9004D6ADB /* Assets.xcassets */,
+			);
+			name = Imagens;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7ED71F61E8FEAD9004D6ADB /* Desafio XML CEP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7ED72091E8FEAD9004D6ADB /* Build configuration list for PBXNativeTarget "Desafio XML CEP" */;
+			buildPhases = (
+				A7ED71F31E8FEAD9004D6ADB /* Sources */,
+				A7ED71F41E8FEAD9004D6ADB /* Frameworks */,
+				A7ED71F51E8FEAD9004D6ADB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Desafio XML CEP";
+			productName = "Desafio XML CEP";
+			productReference = A7ED71F71E8FEAD9004D6ADB /* Desafio XML CEP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7ED71EF1E8FEAD9004D6ADB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Árthur Ken Aramaki Mota";
+				TargetAttributes = {
+					A7ED71F61E8FEAD9004D6ADB = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A7ED71F21E8FEAD9004D6ADB /* Build configuration list for PBXProject "Desafio XML CEP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7ED71EE1E8FEAD9004D6ADB;
+			productRefGroup = A7ED71F81E8FEAD9004D6ADB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7ED71F61E8FEAD9004D6ADB /* Desafio XML CEP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7ED71F51E8FEAD9004D6ADB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7ED72051E8FEAD9004D6ADB /* LaunchScreen.storyboard in Resources */,
+				A7ED72021E8FEAD9004D6ADB /* Assets.xcassets in Resources */,
+				A7ED72001E8FEAD9004D6ADB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7ED71F31E8FEAD9004D6ADB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7ED71FD1E8FEAD9004D6ADB /* ViewController.swift in Sources */,
+				A7ED71FB1E8FEAD9004D6ADB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A7ED71FE1E8FEAD9004D6ADB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7ED71FF1E8FEAD9004D6ADB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A7ED72031E8FEAD9004D6ADB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7ED72041E8FEAD9004D6ADB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7ED72071E8FEAD9004D6ADB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A7ED72081E8FEAD9004D6ADB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7ED720A1E8FEAD9004D6ADB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Desafio XML CEP/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kenaramaki.Desafio-XML-CEP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A7ED720B1E8FEAD9004D6ADB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Desafio XML CEP/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.kenaramaki.Desafio-XML-CEP";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7ED71F21E8FEAD9004D6ADB /* Build configuration list for PBXProject "Desafio XML CEP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7ED72071E8FEAD9004D6ADB /* Debug */,
+				A7ED72081E8FEAD9004D6ADB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7ED72091E8FEAD9004D6ADB /* Build configuration list for PBXNativeTarget "Desafio XML CEP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7ED720A1E8FEAD9004D6ADB /* Debug */,
+				A7ED720B1E8FEAD9004D6ADB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7ED71EF1E8FEAD9004D6ADB /* Project object */;
+}
